@@ -5,9 +5,7 @@ function openly(){
         window.name="onload";
 }
 setTimeout('openly()',1000);
-//onActionClick: function(element) {
-  //          element.style.opacity = 0;
-     //   },
+
 document.addEventListener('DOMContentLoaded', function () {
   const $blogName = document.getElementById('site-name')
   let blogNameWidth = $blogName && $blogName.offsetWidth
