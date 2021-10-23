@@ -1,11 +1,23 @@
 function openly(){
-        if(window.name==""){
+        if(window.name==""&&isHomePage()){
          Snackbar.show({text: '公告: 本网站处于测试期',actionText: '知道了啦',duration: 30000,showSecondButton: true,backgroundColor: '#49B2F6',actionTextColor: '#81CA95'});
         }
         window.name="onload";
 }
 setTimeout('openly()',1000);
+function isHomePage(){
 
+	var localUrl = window.location.href;	 
+
+	var regex = new RegExp("^http?://(test-)?qingju.ga(/?|/index[(.|_)].*|/?[?].*)$", "i");
+
+	return regex.test(localUrl);
+
+}
+
+//onActionClick: function(element) {
+  //          element.style.opacity = 0;
+     //   },
 document.addEventListener('DOMContentLoaded', function () {
   const $blogName = document.getElementById('site-name')
   let blogNameWidth = $blogName && $blogName.offsetWidth
