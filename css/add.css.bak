@@ -127,7 +127,7 @@
     -o-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-    -moz-user-select: none;
+    -moz-user-select: none
     user-select: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -138,4 +138,10 @@
 #subtitle:before {
     background-color: rgba(0, 0, 0, 0);
 }
-.recent-posts { margin-top: 0px }
+.recent-posts { margin-top: -1rem }
+.avatar-img {
+high: 0px; width: 0px;
+}
+.author-info__name {
+margin-top: -90px;
+ }
