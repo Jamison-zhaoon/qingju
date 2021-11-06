@@ -3339,7 +3339,7 @@ blockquote footer cite:before {
   transition: all 0.5s;
 }
 #page-header.full_page {
-  height: 0px;
+  height: 0.01px;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
