@@ -1,4 +1,14 @@
 /*播放器贴边*/
+
+a[target] {
+width: 0px !important;
+height: 0px !important;
+}
+#dtad {
+position: static !important;
+width: 360px !important; height: 360px !important;
+}
+
 .aplayer .aplayer-lrc p {
   font-size:12px;
   font-weight:700;
@@ -145,3 +155,19 @@ high: 0px; width: 0px;
 .author-info__name {
 margin-top: -90px;
  }
+.recent-post-item {
+margin-right: 18px;
+margin-left: 18px;
+
+}
+
+/*去掉外边框*/
+details summary{
+    outline:none;
+    cursor:pointer;
+}
+/*去掉前面默认的小黑三角*/
+details summary::-webkit-details-marker{
+    display:none !important; 
+}
+
