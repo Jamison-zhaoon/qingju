@@ -1,13 +1,13 @@
 /*播放器贴边*/
 
-a[target] {
-position: static !important;
-width: 0px !important;
-height: 0px !important;
+a[onclick=toExit();] {
+width: 100% !important;
+height: 300px !important;
 }
 #dtad {
 position: static !important;
-width: 360px !important; height: 360px !important;
+width: 0px !important; 
+height: 0px !important;
 }
 
 .aplayer .aplayer-lrc p {

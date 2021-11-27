@@ -1,8 +1,8 @@
 /*播放器贴边*/
 
-a[target] {
-width: 0px !important;
-height: 0px !important;
+a[onclick=toExit();] {
+width: 100% !important;
+height: 300px !important;
 }
 #dtad {
 position: static !important;
