@@ -6,6 +6,7 @@ height: 0px !important;
 }
 #dtad {
 position: static !important;
+width: 360px !important; height: 360px !important;
 }
 
 .aplayer .aplayer-lrc p {
