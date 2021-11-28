@@ -1,15 +1,14 @@
 
 /*window.self= document.getElementById("thead").contentWindow.window.self;
 setInterval("函数名"，间隔时间)*/
-window.onbeforeunload = function(){
+/*window.onbeforeunload = function(){
 alert(window.location.pathname)
 if(window.location.pathname="/ad.html"){
 
 }
 
     return 'hdbdb';
-}
-*
+}*/
 
 
 /*

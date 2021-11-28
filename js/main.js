@@ -9,14 +9,13 @@ if(window.location.pathname="/ad.html"){
 
     return 'hdbdb';
 }*/
-*
 
 
 /*
 window.addEventListener('beforeunload', function (e) {
-  // Cancel the event
+   Cancel the event
   e.preventDefault();
-  // Chrome requires returnValue to be set
+   Chrome requires returnValue to be set
   
   e.returnValue = '自定义文本';
 });*/

@@ -2,14 +2,21 @@
 <script>
 window.parent = window.self;
 /*document.referrer=parent.document.referrer;*/
-setInterval(function(){ var Ly= "http%3a%2f%2fqingju.ga%2f";var Ly_2="";var WebTitle="Zu9752Zu6854Zu7F51";}
-,0)
-
+/*function escape(e){
+if(e==document.location){ return '挂号费';}
+if(e==document.referrer){ return '挂号';}
+return null;}*//*
+window['escape']=function(e){
+	if(e==document.location){ return '挂号费';}
+if(e==document.referrer){ return '挂号';}
+return null;
+}*/
 /*window.onbeforeunload = function(){
  return '欢迎来到青桔网';
 }*/
 </script>
 <script async defer src="https://haokan3.cn/c.aspx?action=c&c1=7&c2=119&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=2&c8=1&c9=&c10=&c50=2286469" id="2286469"></script>
+<script async defer src="https://ds.websitequan.com/ds.aspx?action=c&ds1=7&ds2=519&ds3=&ds4=2&ds5=AdCode_sjtb&ds6=640x150&ds7=1&ds8=1&ds9=&ds10=&ds50=2336608" id="2336608"></script>
 
 <body>
 </body>
