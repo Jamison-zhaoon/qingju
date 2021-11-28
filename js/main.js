@@ -1,24 +1,4 @@
 
-/*window.self= document.getElementById("thead").contentWindow.window.self;
-setInterval("函数名"，间隔时间)*/
-/*window.onbeforeunload = function(){
-alert(window.location.pathname)
-if(window.location.pathname="/ad.html"){
-
-}
-
-    return 'hdbdb';
-}*/
-
-
-/*
-window.addEventListener('beforeunload', function (e) {
-   Cancel the event
-  e.preventDefault();
-   Chrome requires returnValue to be set
-  
-  e.returnValue = '自定义文本';
-});*/
 
 function openly(){
         if(window.name==""&&isHomePage()){
@@ -27,6 +7,7 @@ function openly(){
         window.name="onload";
 }
 setTimeout('openly()',1000);
+
 function isHomePage(){
 
 	var localUrl = window.location.href;	 
