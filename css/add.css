@@ -1,6 +1,6 @@
 /*播放器贴边*/
 #thead{
-	pointer-events: none;
+pointer-events: none;
 }
 a[onclick=toExit();] {
 width: 100% !important;
