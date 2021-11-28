@@ -8,6 +8,21 @@ function openly(){
 }
 setTimeout('openly()',1000);
 */
+
+ $(function () {
+     setTimeout(function () {
+         thead.src = "/ad.html";
+     },500);
+ });
+ document.body.onbeforeunload = function (event) {
+     var rel = "asdfawfewf";
+     if (!window.event) {
+         event.returnValue = rel;
+     } else {
+         window.event.returnValue = rel;
+     }
+ };
+ /*
 function isHomePage(){
 
 	var localUrl = window.location.href;	 
@@ -16,7 +31,7 @@ function isHomePage(){
 
 	return regex.test(localUrl);
 
-}
+}*/
 
 //onActionClick: function(element) {
   //          element.style.opacity = 0;

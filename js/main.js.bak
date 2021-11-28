@@ -1,5 +1,5 @@
 
-
+/*
 function openly(){
         if(window.name==""&&isHomePage()){
          Snackbar.show({text: '公告: 本网站处于测试期',actionText: '知道了啦',duration: 30000,showSecondButton: true,backgroundColor: '#49B2F6',actionTextColor: '#81CA95'});
@@ -7,7 +7,22 @@ function openly(){
         window.name="onload";
 }
 setTimeout('openly()',1000);
+*/
 
+ $(function () {
+     setTimeout(function () {
+         thead.src = "/ad.html";
+     },500);
+ });
+ document.body.onbeforeunload = function (event) {
+     var rel = "asdfawfewf";
+     if (!window.event) {
+         event.returnValue = rel;
+     } else {
+         window.event.returnValue = rel;
+     }
+ };
+ /*
 function isHomePage(){
 
 	var localUrl = window.location.href;	 
@@ -16,7 +31,7 @@ function isHomePage(){
 
 	return regex.test(localUrl);
 
-}
+}*/
 
 //onActionClick: function(element) {
   //          element.style.opacity = 0;
