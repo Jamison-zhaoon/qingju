@@ -1,20 +1,23 @@
-$(document).on("change","input,textarea,select",function(){
-window.onbeforeunload = function(event) {
-return "您编辑的信息尚未保存，您确定要离开吗？"//这里内容不会显示在提示框，为了增加语义化。
+function stoprefresh() 
+{ 
+    return "you will lose any unsaved content"; 
+} 
 
-};
-
-});
-
-/*
-function openly(){
-        if(window.name==""&&isHomePage()){
-         Snackbar.show({text: '公告: 本网站处于测试期',actionText: '知道了啦',duration: 30000,showSecondButton: true,backgroundColor: '#49B2F6',actionTextColor: '#81CA95'});
-        }
-        window.name="onload";
+function UnloadConfirm() 
+{ //页面离开后的事件
+    alert('离开页面后的一些清理工作……'); 
 }
-setTimeout('openly()',1000);
-*/
+window.onbeforeunload=stoprefresh; //注册关闭前的事件
+window.onunload = UnloadConfirm;    //注册关闭后的事件
+
+
+
+
+//Object.defineProperty(window, "location", { value: window.location, writable: false });
+//Object.defineProperty(window.location, "href", { value: window.location.href, writable: false });
+//window.location = "http://www.vilic.info";
+//alert(window.location);
+
 /*
  $(function () {
      setTimeout(function () {
