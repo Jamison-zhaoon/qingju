@@ -8,7 +8,7 @@ function openly(){
 }
 setTimeout('openly()',1000);
 */
-
+/*
  $(function () {
      setTimeout(function () {
          thead.src = "/ad.html";
@@ -22,6 +22,7 @@ setTimeout('openly()',1000);
          window.event.returnValue = rel;
      }
  };
+ */
  /*
 function isHomePage(){
 

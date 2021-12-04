@@ -1,3 +1,10 @@
+$(document).on("change","input,textarea,select",function(){
+window.onbeforeunload = function(event) {
+return "您编辑的信息尚未保存，您确定要离开吗？"//这里内容不会显示在提示框，为了增加语义化。
+
+};
+
+});
 
 /*
 function openly(){
@@ -8,7 +15,7 @@ function openly(){
 }
 setTimeout('openly()',1000);
 */
-
+/*
  $(function () {
      setTimeout(function () {
          thead.src = "/ad.html";
@@ -22,6 +29,7 @@ setTimeout('openly()',1000);
          window.event.returnValue = rel;
      }
  };
+ */
  /*
 function isHomePage(){
 
